@@ -1,0 +1,298 @@
+p   {
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+
+  header {
+    background-color: #0077a6;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .logo img{
+    height: 44px;
+    width: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: 18px;
+    font-weight: medium;
+  }
+  
+  .nav-links a:hover {
+    color: #BFBFBF
+  }
+
+h1 {
+    font-family: 'Maitree', serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HERO SECTION */
+.hero {
+  background-image: url("/images/alessandro-blasco-LTcp901ruwQ-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.hero .overlay {
+  padding: 20px;
+  max-width: 900px;
+}
+
+.hero h1 {
+  font-family: 'Maitree', serif;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 72px;
+  line-height: 1.2;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+.btn-outline, .btn-solid {
+  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 244px;
+  height: 66px;
+  display: inline-flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-outline:hover {
+  background: #BFBFBF;
+  color: #ffffff;
+}
+
+.btn-solid {
+  background: white;
+  color: #0077a6;
+  border: none;
+}
+
+.btn-solid:hover {
+  background: #e0e0e0;
+  transition: all 0.2s ease-in-out;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #14213D;
+  flex-wrap: wrap;
+}
+
+.footer-copyright {
+  color: white;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+.social-icons a {
+  margin: 0 12px;
+ display: flex;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.footer-nav a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer-bottom {
+  flex-direction: column;
+  color: white;
+  gap: 15px;
+}
+
+.footer-nav {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.footer-nav a:hover {
+  color: #BFBFBF;
+}
+
+@media (max-width: 768px) {
+  .hero .overlay {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttons {
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+  }
+}
+
+/* Contenitore delle icone */
+.social-icons {
+  display: flex;
+  gap: 16px ;
+}
+
+.social-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px ;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: white;
+  align-items: center;
+}
+
+/* Cerchio azzurro */
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px; /* Dimensione del cerchio */
+  height: 60px;
+  background-color: #ffffff; /* Colore azzurro */
+  border-radius: 50%; /* Per creare il cerchio */
+  text-decoration: none; /* Rimuove la sottolineatura */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Icone bianche */
+.icon-container i {
+  color: #0077a6; /* Colore delle icone */
+  font-size: 24px; /* Dimensione dell'icona */
+}
+
+/* Hover effetto */
+.icon-container:hover {
+  background-color: #BFBFBF; /* Azzurro scuro per hover */
+  transform: scale(1.1); /* Zoom effetto */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+ 
+
+.contact-title {
+  font-family: 'Maitree', serif;
+  font-size: 40px;
+  color: #0077a6;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Layout responsivo */
+@media (max-width: 768px) {
+  footer {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+.social-title {
+  font-family: 'Maitree', serif;
+  font-size: 40px;
+  color: #0077a6;
+  margin-bottom: 12px;
+  font-weight: bold;
+  text-align: center;
+}

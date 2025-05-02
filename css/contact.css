@@ -1,0 +1,117 @@
+/* Generale */
+.content {
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+color: #14213D;
+}
+
+#modulo {
+  padding: 30px;
+  background: #0077a6;
+  color: #ffffff;
+  margin: 100px auto;
+  width: 80%;
+  max-width: 800px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#modulo h1 {
+  margin: 0;
+  font-size: 48px !important;
+  font-weight: bold;
+  font-family: 'Maitree', serif;
+  color: #ffffff;
+}
+
+#modulo h3 {
+  margin-top: 20px;
+  font-size: 22px; /* Più grande per attrarre attenzione */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+#modulo ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+#modulo ul li {
+  padding: 16px 0;
+  width: 48%;
+  float: left;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#modulo ul li.tre,
+#modulo ul li.quattro {
+  float: none;
+  clear: both;
+  width: 100%;
+}
+
+#modulo ul li.uno {
+  margin-right: 4%;
+}
+
+#modulo ul li.quattro {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+#modulo ul li label {
+  display: block;
+  padding-bottom: 8px;
+  font-weight: regular;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: left;
+}
+
+#modulo ul li input,
+#modulo ul li textarea {
+  border: solid 2px #14213D;
+  background: white;
+  color: #000000;
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#modulo ul li textarea {
+  height: 120px;
+  resize: none;
+}
+
+#modulo ul li .pulsante {
+  background: #ffffff;
+  border: solid 2px #14213D;
+  padding: 14px 28px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #0077a6;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+#modulo ul li .pulsante:hover {
+  background: #e0e0e0;
+  transition: all 0.2s ease-in-out;
+}
