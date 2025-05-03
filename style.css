@@ -10,7 +10,6 @@ p   {
     box-sizing: border-box;
   }
   
- 
 
   header {
     background-color: #0077a6;
@@ -55,7 +54,7 @@ p   {
 h1 {
     font-family: 'Maitree', serif;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
   }
 
